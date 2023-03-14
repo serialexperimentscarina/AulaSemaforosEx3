@@ -11,7 +11,7 @@ public class Principal {
 		
 		System.out.println(" == A corrida começou !! == ");
 		
-		for (int i = 0; i < 7; i++) {
+		for (int i = 1; i <= 7; i++) {
 			Thread Escuderia = new ThreadEscuderia(i, semaforo);
 			Escuderia.start();
 		}
